@@ -5,7 +5,9 @@ Ce programme affiche les transits entre cabane avec leur distance, les cabanes, 
 
 ## Données
 Les waypoints et les lignes sont générés à partir de `transit/Cabanes_et_Transits_2022_V2.gpx`.
+
 ⚠ **Ce fichier gpx est un fichier prototype inadapté pour le travail à Kerguelen ! Il ne sera pas mis à jour.** ⚠
+
 Contactez moi pour plus de détails.
 
 ## Fonds de cartes
