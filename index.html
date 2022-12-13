@@ -42,11 +42,15 @@
 
 
 <script>
-	
-
+	alert("Bonjour,\n\nCette page n'est plus affiliée à l'IPEV suite à une demande du siège.\nVous pouvez la consulter mais elle ne sera plus maintenue.\n\nCordialement,\nArthur (KER72)")
+	if (typeof(L)!=='object'){
+		confirm("Vous n'êtes pas connecté à intertnet / à un proxy vers internet.\nConnectez-vous et rechargez la page.")
+	}
 
 	var credit=  'Programme par Arthur Perrin VSC electro IPEV KER72'
 	var map = L.map('map').setView([-49.339441, 69.573669], 10);
+
+
 
 	var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
